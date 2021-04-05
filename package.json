@@ -1,0 +1,21 @@
+{
+  "name": "firestore-upload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scrapper": "node main.js",
+    "uploader": "node uploader.js",
+    "build": "npm run scrapper && npm run uploader"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
+    "firebase": "^8.3.2",
+    "firebase-admin": "^9.6.0"
+  }
+}
